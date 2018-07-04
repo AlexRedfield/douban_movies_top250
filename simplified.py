@@ -6,7 +6,7 @@ import lxml.html
 
 DOWNLOAD_URL = 'http://movie.douban.com/top250/'
 #  连接数据库
-db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='syb123', db='douban',
+db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd=PWD, db='douban',
                      charset='utf8')
 cur = db.cursor()
 
